@@ -16,3 +16,13 @@ def is_triangle(a, b, c):
 2. Write a function that prompts the user to input three stick lengths, converts them to integers,
 and uses is_triangle to check whether sticks with the given lengths can form a triangle.
 """
+
+
+def can_form_tri():
+    a = int(input("Inserire valore di A\n"))
+    b = int(input("Inserire valore di B\n"))
+    c = int(input("Inserire valore di C\n"))
+    is_triangle(a, b, c)
+
+
+can_form_tri()
