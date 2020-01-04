@@ -8,4 +8,4 @@ def p_cal(n):
 	np_of_a = math.factorial(365) / math.factorial(365-n) / math.pow(365, n)
 	return (1 - np_of_a)
 	
-print p_cal(23)
+print(p_cal(23))
