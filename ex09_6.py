@@ -10,7 +10,7 @@ def count_abecedarian(word):
 	for c in word:
 		if is_abecedarian(c):
 			ctr += 1
-	print ctr
+	print(ctr)
 		
 		
 if __name__ == '__main__':
