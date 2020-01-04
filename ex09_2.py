@@ -12,8 +12,8 @@ def read(f):
 			ctr_all += 1
 			word = line.strip()
 			if has_no_e(word):
-				print word
+				print(word)
 				ctr_e += 1
-		print ctr_e / ctr_all	
+		print(ctr_e / ctr_all)
 			
 read('words.txt')

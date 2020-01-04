@@ -3,7 +3,7 @@ def read(f):
 		for line in file:
 			word = line.strip()
 			if len(word) > 20:
-				print word
+				print(word)
 			
 read('words.txt')
 #read('test.txt')
